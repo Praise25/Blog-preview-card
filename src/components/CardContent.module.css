@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@700&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.content-tag {
+  width: 21%;
+  text-align: center;
+  background-color: var(--amber);
+  margin: 0;
+  padding: calc(4rem / 16) calc(6rem / 16);
+  border-radius: calc(4rem / 16);
+}
+
+.text-preset-1 {
+  font-family: Figtree, sans-serif;
+  font-weight: 800;
+  font-size: calc(24rem / 16);
+  line-height: 150%;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.text-preset-2 {
+  font-family: Figtree, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: var(--gray-500);
+}
+
+.text-preset-3 {
+  font-family: Figtree, sans-serif;
+  font-weight: 500;
+  font-size: calc(14rem / 16);
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: Figtree, sans-serif;
+  font-weight: 800;
+  font-size: calc(14rem / 16);
+  line-height: 150%;
+  letter-spacing: 0;
+}
