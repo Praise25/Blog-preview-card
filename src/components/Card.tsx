@@ -6,7 +6,7 @@ import classes from "./Card.module.css"
 
 export default function Card() {
   return (
-    <div className={classes.container}>
+    <div className={`${classes.container} card-container`}>
       <CardImage />
       <CardContent />
       <CardFooter />

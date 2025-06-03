@@ -25,6 +25,10 @@
   color: var(--gray-950);
 }
 
+.text-preset-1:hover {
+  color: var(--amber);
+}
+
 .text-preset-2 {
   font-family: Figtree, sans-serif;
   font-weight: 500;

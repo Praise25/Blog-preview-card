@@ -7,7 +7,7 @@ export default function CardContent() {
         Learning
       </p>
       <p className={classes["text-preset-3"]}>Published 21 Dec 2023</p>
-      <p className={classes["text-preset-1"]}>HTML & CSS foundations</p>
+      <p className={`${classes["text-preset-1"]} card-title`}>HTML & CSS foundations</p>
       <p className={classes["text-preset-2"]}>
         These languages are the backbone of every website, defining structure,
         content, and presentation.
