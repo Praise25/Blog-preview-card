@@ -1,8 +1,12 @@
+import Card from "./components/Card";
+
+import classes from "./App.module.css"
+
 function App() {
   return (
-    <>
-      <h1>Blog Preview Card</h1>
-    </>
+    <main className={classes.container}>
+      <Card />
+    </main>
   );
 }
 

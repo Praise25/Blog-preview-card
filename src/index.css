@@ -5,3 +5,8 @@
 
   background-color: var(--amber);
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
