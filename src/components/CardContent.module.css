@@ -22,6 +22,7 @@
   line-height: 150%;
   letter-spacing: 0;
   margin: 0;
+  color: var(--gray-950);
 }
 
 .text-preset-2 {
@@ -31,6 +32,7 @@
   line-height: 150%;
   letter-spacing: 0;
   color: var(--gray-500);
+  margin: 0.8em 0;
 }
 
 .text-preset-3 {
@@ -39,6 +41,8 @@
   font-size: calc(14rem / 16);
   line-height: 150%;
   letter-spacing: 0;
+  color: var(--gray-950);
+  margin: calc(12.5rem / 16) 0;
 }
 
 .text-preset-4 {
@@ -47,4 +51,5 @@
   font-size: calc(14rem / 16);
   line-height: 150%;
   letter-spacing: 0;
+  color: var(--gray-950);
 }
