@@ -1,5 +1,12 @@
 import classes from "./CardContent.module.css";
 
+import { motion, type Variants } from "motion/react";
+
+const colorVariants: Variants = {
+  initial: { color: "#111111" },
+  hover: { color: "#f4d04e" },
+};
+
 export default function CardContent() {
   return (
     <div className={classes.container}>
@@ -7,7 +14,12 @@ export default function CardContent() {
         Learning
       </p>
       <p className={classes["text-preset-3"]}>Published 21 Dec 2023</p>
-      <p className={`${classes["text-preset-1"]} card-title`}>HTML & CSS foundations</p>
+      <motion.p
+        className={`${classes["text-preset-1"]}`}
+        variants={colorVariants}
+      >
+        HTML & CSS foundations
+      </motion.p>
       <p className={classes["text-preset-2"]}>
         These languages are the backbone of every website, defining structure,
         content, and presentation.
