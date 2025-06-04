@@ -48,7 +48,8 @@ about working with motion. I see myself using it a whole lot in the near future.
 
 Also learnt how to implement a fading in/fading out transition for elements, which I almost wrote off as impossible since there was no
 mention of it in the motion docs. Eventually had the idea to create 2 shadows instead after some reading and research, then use varaints
-to hide one and show the other, and switch them when the card was hovered on. It was a really fun learning experience. Code snippet for the files showcasing the implementation is shown below.
+to hide one and show the other, and switch them when the card was hovered over. It was a really fun learning experience. Code snippet for the files showcasing the implementation is shown below.
+
 
 Card.module.css
 ```css
@@ -68,6 +69,7 @@ Card.module.css
   box-shadow: 8px 8px 0 0 #000000;
 }
 ```
+
 
 Card.tsx
 ```js
@@ -122,7 +124,7 @@ export default function Card() {
 
 ### Continued development
 
-Similarly to what I mentioned before, I'm going to keep working on implementing really cool and smooth animations. 
+Similarly to what I mentioned before, I'm going to keep working on implementing really complex, fun and fluid animations. 
 
 ### Useful resources
 
@@ -131,4 +133,4 @@ Similarly to what I mentioned before, I'm going to keep working on implementing 
 ## Author
 
 - Frontend Mentor - [@Praise25](https://www.frontendmentor.io/profile/Praise25)
-- Twitter - [Anene Praise](https://www.linkedin.com/in/praise-anene-07776416a/)
+- LinkedIn - [Anene Praise](https://www.linkedin.com/in/praise-anene-07776416a/)
